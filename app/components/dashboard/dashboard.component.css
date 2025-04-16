@@ -1,0 +1,54 @@
+/* Container styling */
+.dashboard-container {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #fafafa;
+    border-radius: 6px;
+  }
+  
+  /* Header or Title styling */
+  .dashboard-header {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  /* Basic section wrapper */
+  .dashboard-section {
+    margin-bottom: 1.5rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Allocation list styling */
+  .allocation-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .allocation-list li {
+    margin: 0.5rem 0;
+  }
+  
+  /* Performance list styling */
+  .performance-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+  }
+  
+  .performance-list li {
+    margin: 0.25rem 0;
+  }
+  
+  /* Responsive canvas: Adjust for smaller screens */
+  @media (max-width: 768px) {
+    canvas {
+      width: 100% !important;
+      height: auto !important;
+    }
+  }
+  
